@@ -1,0 +1,79 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="uft-8">
+	<title>L4 - Ej3</title>
+	<meta name="generator" content="Geany 1.36"/>
+	<script>
+
+	function enviarFormulario() {
+	alert ("enviado")
+	}
+	</script>
+</head>
+<body>
+	<form action="javascript:alert('Acabo de enviar el formulario');">
+	<h1>FORMUlARIO DE CONTACTO</h1>
+	<p>¡Hola! Soy Ángela. Puedes contactarme para preguntarme lo que quieras mediante este formulario de contacto</p>
+	<label for="name">Nombre</label><br>
+	<input type="text" name="name" value="Escribe tu nombre"><br>
+	<label for="number">Número de teléfono</label><br>
+	<input type="number" name="number" placeholder="Enter a number"><br>
+	<label for="email">Email</label><br>
+	<input type="email" name="email" placeholder="Enter an email"><br>
+
+	<label for="message">Mensaje</label><br>
+	<textarea name="message"></textarea>
+	<br>
+
+	<label for="location">¿De dónde eres?</label><br>
+	<textarea name="location"></textarea>
+	<br>
+
+<label for="back">¿Has repetido curso algún año?</label><br>
+<input type="radio" name="back" value ="yes">Sí
+<input type="radio" name="back" value ="no">No
+<br>
+
+	<label for="studies">¿Qué estás estudiando?</label><br>
+	<textarea name="studies"></textarea>
+	<br>
+
+	<label for="sex">Sexo</label><br>
+	<select name="sex">
+	<option value="male">Male</option>
+	<option value="female">Female</option>
+	<option value="other">Other</option>
+	</select>
+	<br>
+
+	<label for="studies">Estudios</label><br>
+	<select name="studies">
+	<option value="colegio">Colegio</option>
+	<option value="ESO">ESO</option>
+	<option value="bachillerato">Bachillerato</option>
+
+	</select>
+	<br>
+
+	<label for="age">Edad</label><br>
+	<input type="number" name="age">
+	<br>
+
+	<label for="rate">Puntuación (1: muy mala fuente para consultar información sobre grados, 5: muy buena fuente para consultar información sobre grados)</label><br>
+	<input type="radio" name="rate" value ="1">1
+	<input type="radio" name="rate" value ="2">2
+	<input type="radio" name="rate" value ="3">3
+	<input type="radio" name="rate" value ="4">4
+	<input type="radio" name="rate" value ="5">5
+
+	<button type="submit">Submit</button>
+	<button type="reset">Reset</button>
+	<button onclick="enviarFormulario">Enviar</button>
+
+	</form>
+</body>
+</html>
+</DOCTYPE>
+
+
